@@ -1,3 +1,5 @@
+@import "./placeholder/placeholders";
+
 body {
     font-family: Roboto, Arial, Helvetica, sans-serif;
     position: relative;
@@ -22,7 +24,10 @@ body {
 
 .navbar__list {
     list-style-type: none;
-    @extend %double-center-flex;
+    //@extend %double-center-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .navbar__list__element {
@@ -79,7 +84,7 @@ body {
     height: 50px;
 }
 
-@media screen and (max-width: 950px){
+@media screen and (max-width: 730px){
     .navbar__button {
         display: block;
     }
@@ -118,3 +123,45 @@ body {
         display: flex;
     }
 };
+
+
+// -------------- Global container -------- //
+.global-container {
+    padding-bottom: 40em;
+}
+
+
+// -------------- Home -------- //
+.home {
+    width: 100%;
+    height: 900px;
+  
+    flex-direction: column;
+    padding: 50px 0 75px;
+
+     // @extend %double-center-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home__title {
+   // @extend %global-title;
+    font-family: Comfortaa, sans-serif;
+    text-align: center;
+    font-size: 70px;
+    padding: 0 25px 20px;
+}
+
+.home__subtitle {
+    text-align: center;
+    font-size: 32px;
+    padding-bottom: 20px;
+    line-height: 1.2;
+}
+
+.home__img {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-position: center;
+}
