@@ -33,7 +33,7 @@ header {
 }
 
 .nav__menu {
-    margin-left: 3rem;
+    margin-left: 4.5rem;
 }
 
 .nav__item {
@@ -43,26 +43,27 @@ header {
 .nav__link {
     color: var(--color-text);
     text-transform: capitalize;
-    font-size: 16px;
+    font-size: 2rem;
 }
 
 .nav__link:hover {
-    border-bottom: 1px solid var(--color-text);
+    border-bottom: 0.1rem solid var(--color-text);
 }
 
 .search_btn, .cart_btn {
-    width: 40px;
-    height: 40px;
-    border-radius: 50px;
-    background-color: var(--color-text);
+    width: 4rem;
+    height: 4rem;
+    border-radius: 5rem;
+    background-color: var(--tertiary-color);
 }
 
 .search_btn {
-    margin-right: 88px;
+    margin-right: 2rem;
+    color: var(--primary-color);
 }
 
 .search_btn i, .cart_btn i {
-    font-size: 17px;
+    font-size: 2rem;
     font-weight: 600;
 }
 

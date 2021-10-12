@@ -1,5 +1,9 @@
 @import url("global.css");
+@import url("bonus.css");
 @import url("overlay.css");
 @import url("container.css");
 @import url("strip.css");
 @import url("navbar.css");
+@import url("social.css");
+@import url("product.css");
+@import url("bottomNav.css");

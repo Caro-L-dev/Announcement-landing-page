@@ -28,8 +28,10 @@ button {
 }
 
 :root {
-    --primary-color: #B6B83C;
-    --secondary-color: #F3E4C2;
+    --primary-color: #ffbc05;
+    --secondary-color: #50c5b2;
+    --tertiary-color: rgb(18, 131, 103);
     --color-text: #fff;
+    --color-shadow: rgba(0, 2, 122, 0.1);
     --header-height: 3rem;
 }

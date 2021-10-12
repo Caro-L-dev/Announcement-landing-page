@@ -1,9 +1,9 @@
 .left_strip, .right_strip {
     position: absolute;
-    width: 0.1rem;
+    width: 0.3rem;
     height: 100vh;
-    background-color: #fff;
-    opacity: .5;
+    background-color: var(--primary-color);
+    opacity: 1;
     z-index: -10;
 }
 
@@ -12,5 +12,6 @@
 }
 
 .right_strip {
-    right: 10rem;
+    right: 8rem;
+    filter: drop-shadow(25px 0px 3px var(--color-shadow));
 }
