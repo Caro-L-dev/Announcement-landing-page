@@ -36,6 +36,11 @@ header {
     margin-left: 4.5rem;
 }
 
+.menu_toggle_btn {
+    background-color: transparent;
+    color: white;
+}
+
 .nav__item {
     margin-bottom: 2rem;
 }
