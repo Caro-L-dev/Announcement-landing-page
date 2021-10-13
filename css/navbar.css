@@ -17,11 +17,11 @@ header {
     height: 5rem;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .nav_inside {
-    width: 75%;
+    width: 65%;
     display: flex;
     align-items: center;
 }
@@ -48,7 +48,7 @@ header {
 .nav__link {
     color: var(--color-text);
     text-transform: capitalize;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .nav__link:hover {
@@ -56,8 +56,8 @@ header {
 }
 
 .search_btn, .cart_btn {
-    width: 4rem;
-    height: 4rem;
+    width: 2rem;
+    height: 2rem;
     border-radius: 5rem;
     background-color: var(--tertiary-color);
 }
@@ -68,7 +68,7 @@ header {
 }
 
 .search_btn i, .cart_btn i {
-    font-size: 2rem;
+    font-size: 1.2rem;
     font-weight: 600;
 }
 

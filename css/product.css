@@ -35,7 +35,7 @@
     font-size: 8rem;
     text-transform: capitalize;
     color: var(--tertiary-color);
-    filter: drop-shadow(10px 0px 1px var(--color-text));
+    filter: drop-shadow(10px 0px 0.1px var(--color-text));
     z-index: -10;
 }
 
@@ -50,4 +50,5 @@
     font-weight: 600;
     color: var(--tertiary-color);
     z-index: -10;
+    text-transform: uppercase;
 }
