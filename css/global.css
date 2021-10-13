@@ -29,10 +29,10 @@ button {
 }
 
 :root {
-    --primary-color: #ffbc05;
-    --secondary-color: #50c5b2;
-    --tertiary-color: rgb(18, 131, 103);
-    --color-text: #fff;
-    --color-shadow: rgba(0, 2, 122, 0.1);
+    --primary-color: #472802;
+    --secondary-color: #2D372E;
+    --tertiary-color: #E18E4A;
+    --color-text: #AF3828;
+    --color-shadow: rgba(33, 44, 1, 0.1);
     --header-height: 3rem;
 }

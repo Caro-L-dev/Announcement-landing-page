@@ -22,14 +22,14 @@
     content: "/";
     position: absolute;
     left: 60%;
-    color: rgba(238, 238, 238, 0.726);
+    color: var(--color-text);
 }
 
 .social ul li:nth-child(2)::after {
     content: "/";
     position: absolute;
     left: 55%;
-    color: rgba(238, 238, 238, 0.726);
+    color: var(--color-text);
 }
 
 .social ul li:not(:last-child) {

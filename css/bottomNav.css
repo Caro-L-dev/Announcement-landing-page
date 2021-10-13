@@ -35,7 +35,7 @@
 }
 
 .slide_nav_wrapper button:nth-child(2) {
-    color: var(--secondary-color);
+    color: var(--color-text);
 }
 
 .slide_nav_wrapper button:nth-child(2):hover {

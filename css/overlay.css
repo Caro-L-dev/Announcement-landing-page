@@ -14,7 +14,7 @@
 
 .second {
     left: 33.3%;
-    background-color: #fff;
+    background-color: var(--color-text);
 }
 
 .third {
