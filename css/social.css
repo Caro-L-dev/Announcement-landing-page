@@ -21,14 +21,14 @@
 .social ul li:nth-child(1)::after {
     content: "/";
     position: absolute;
-    left: 70%;
+    left: 60%;
     color: rgba(238, 238, 238, 0.726);
 }
 
 .social ul li:nth-child(2)::after {
     content: "/";
     position: absolute;
-    left: 25%;
+    left: 55%;
     color: rgba(238, 238, 238, 0.726);
 }
 
